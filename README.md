@@ -1,0 +1,2 @@
+# nurse-chatbot
+This was created as part of Cisco University Challenge project. We linked the chatbot to a Cisco Spark chatroom and using voice response on the Apple Watch we could send simple one word responses that initiated an action (i.e. calling emergency services, or in house security to attend urgently to an unwell patient). At this moment in time this chatbot only has a few responses. It was created using Gupshup.
