@@ -41,7 +41,6 @@ function sendMessageToApiAi(options,botcontext) {
        }
     });
 }
-
 /** Functions declared below are required **/
 function EventHandler(context, event) {
     if (!context.simpledb.botleveldata.numinstance)
@@ -50,7 +49,6 @@ function EventHandler(context, event) {
     context.simpledb.botleveldata.numinstance = numinstances;
     context.sendResponse("Thanks for adding me. You are:" + numinstances);
 }
-
 /**Greeting with Gordon**/
 function MessageHandler(context, event) {
     context.console.log("mr-smith")
