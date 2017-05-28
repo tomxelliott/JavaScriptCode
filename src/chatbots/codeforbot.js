@@ -13,7 +13,6 @@ function MessageHandler(context, event) {
         }
     },context)
 }
-
 function sendMessageToApiAi(options,botcontext) {
     var message = options.message; // Mandatory
     var sessionId = options.sessionId || ""; // optinal
