@@ -1,7 +1,7 @@
 
-/** This is a sample code for your bot**/
+/** This is a sample code for the bot **/
 function MessageHandler(context, event) {
-    // var nlpToken = "xxxxxxxxxxxxxxxxxxxxxxx";//Your API.ai token
+    // var nlpToken = "xxxxxxxxxxxxxxxxxxxxxxx";// API.ai token
     // context.sendResponse(JSON.stringify(event));
     sendMessageToApiAi({
         message : event.message,
@@ -16,7 +16,7 @@ function MessageHandler(context, event) {
 
 function sendMessageToApiAi(options,botcontext) {
     var message = options.message; // Mandatory
-    var sessionId = options.sessionId || ""; // optinal
+    var sessionId = options.sessionId || ""; // optional
     var callback = options.callback;
     if (!(callback && typeof callback == 'function')) {
        return botcontext.sendResponse("ERROR : type of options.callback should be function and its Mandatory");
