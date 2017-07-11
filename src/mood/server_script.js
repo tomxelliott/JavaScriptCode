@@ -1,6 +1,6 @@
 /*
 Tom Elliott
-EDITED Coding assignment - Office Mood Monitor.
+Mood Monitor.
 */
 
 /*
