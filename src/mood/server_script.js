@@ -57,16 +57,16 @@ Moods:
 function getMoodImage() {
 	(function(){
 		var moodImage;
-		if(mood <= 5) {
-			moodImage = "&#9748";
+		if (mood > 5 && mood <= 7) {
+			moodImage = "&#9730;";
 		} else if (mood > 8 && mood <= 10) {
 			moodImage = "&#9889;";
-		} else if (mood > 5 && mood <= 7) {
-			moodImage = "&#9730;";
-		}  else if(mood > 10 && mood < 30) {
+		} else if(mood > 10 && mood < 30) {
 			moodImage = "&#9729";
 		} else if (mood > 30) {
 			moodImage = "&#9788;";
+		} else {
+			moodImage = "&#9748"; 
 		}
 		setTimeout(arguments.callee, 1000);
 		var targetDiv = document.getElementById("mood").getElementsByClassName("content")[0];
