@@ -3,8 +3,7 @@
 "Tom".length 
 // The below is how to create an interactive popup box on a
 // webiste
-confirm('This is an example of using JS to create some
-interaction on a website. Click OK to continue!');
+confirm('This is an example of using JS to create some interaction on a website. Click OK to continue!');
 //below is a prompt using JS
 prompt("what is your name?");
 //can use boolean values to find out if the length of a
@@ -25,52 +24,43 @@ var myAge = 27;
 //below is some code from my game intro
 //
 // Check if the user is ready to play!
-confirm("If you are ready to play the best game of 2016,
-click OK!"); var age = prompt("What's your age?");
+confirm("If you are ready to play the best game of 2016, click OK!"); 
+var age = prompt("What's your age?");
 
-if (age < 13) { console.log("You are not encouraged to play
-this game due to it's sensitive content, however if you do
-proceed, you do so at your own risk!");
+if (age < 13) { console.log("You are not encouraged to play this game due to it's sensitive content, however if you do proceed, you do so at your own risk!");
 }
-else { console.log("We hope you enjoy your adventure!");
+else { 
+	console.log("We hope you enjoy your adventure!");
 }
 }}
 console.log("You are at a Justin Bieber concert, and you
 hear this lyric 'Lace my shoes off, start racing.'");
 
-console.log("Suddenly, Bieber stops and says, 'Who wants to
-race me?'");
+console.log("Suddenly, Bieber stops and says, 'Who wants to race me?'");
 
-var userAnswer = prompt("Do you want to race Bieber on
-stage?");
+var userAnswer = prompt("Do you want to race Bieber on stage?");
 
-if (userAnswer == "yes") { console.log("You and Bieber start
-racing. It's neck and neck! You win by a shoelace!");
+if (userAnswer == "yes") { console.log("You and Bieber start racing. It's neck and neck! You win by a shoelace!");
 }
-else { console.log("Oh no! Bieber shakes his head and sings
-'I set a pace, so I can race without pacing.'");
+else { console.log("Oh no! Bieber shakes his head and sings 'I set a pace, so I can race without pacing.'");
 }
-var feedback = prompt("Please rate our game out of 10.
-Thanks!");
+var feedback = prompt("Please rate our game out of 10. Thanks!");
 
-if(feedback > 8) { console.log("Thank you! We should race at
-the next concert!");
+if(feedback > 8) { console.log("Thank you! We should race at the next concert!");
 }
-else { console.log("I'll keep practicing coding and
-racing.");
+else { console.log("I'll keep practicing coding and racing.");
 }
 }
 // Below is the greeting function! See line 7 We can join
 // strings together using the plus sign (+) See the hint for
 // more details about how this works.
 // 
-var greeting = function (name) { console.log("Great to see
-you," + " " + name);
+var greeting = function (name) { console.log("Great to see you," + " " + name);
 };
 }
 // On line 11, call the greeting function! You can replace
 // the name Emily between the quotes with any other name.
- greeting("Emily");
+greeting("Emily");
 
 
  //creating a function. follow step by step as it makes it
